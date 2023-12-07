@@ -4,7 +4,7 @@ pipeline{
 
          stage("dve") {
              steps{
-                  sh 'hello'
+                  echo 'hello'
 }   
 }
 
