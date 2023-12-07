@@ -8,7 +8,8 @@ pipeline{
                   echo 'hello'
                  }   
             }
-          stage("hello"){   
+          stage("hello"){  
+             when { branch 'swathi-*' }
                        steps{ echo 'hello evryone' }
                      }
 
